@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_fondo_download_image"
+    tools:context="com.principal.subnetting.easy.ViewfinderPdf">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@drawable/ic_fondo_download_image"
+        android:enabled="false"
+        android:text="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siempre es importante aprender más e investigar y comparar con diversas fuentes."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="19dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:enabled="false"
+        android:text="" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="En el área de redes día a día se realizan investigaciones para mejorar la calidad de servicio y existen algunos cambios en configuraciones y protocolos, aquí algunos PDf que serán de mucha ayuda para el aprendizaje"
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:background="@drawable/ic_fondo_cuatro"
+                android:enabled="false"
+                android:textColor="#000000"
+                android:text="Teoria unidad 1\n Introducción al enrutamiento " />
+
+
+            <Button
+                android:id="@+id/bt_pdf_one"
+                android:layout_width="39dp"
+                android:layout_height="33dp"
+                android:background="@drawable/ic_download"
+                android:textSize="7dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:background="@drawable/ic_fondo_cuatro"
+                android:enabled="false"
+                android:textColor="#000000"
+                android:text="Teoria unidad 2\n Enrutamiento estático y dinámico " />
+
+
+            <Button
+                android:id="@+id/bt_pdf_two"
+                android:layout_width="39dp"
+                android:layout_height="33dp"
+                android:background="@drawable/ic_download"
+                android:textSize="7dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:background="@drawable/ic_fondo_cuatro"
+                android:enabled="false"
+                android:textColor="#000000"
+                android:text="Teoria unidad 3\nProtocolos RIP versión 1" />
+
+            <Button
+                android:id="@+id/bt_pdf_three"
+                android:layout_width="39dp"
+                android:layout_height="33dp"
+                android:background="@drawable/ic_download"
+                android:textSize="7dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:background="@drawable/ic_fondo_cuatro"
+                android:enabled="false"
+                android:textColor="#000000"
+                android:text="Teoria unidad 4\n VLSM y CIDR"/>
+            <Button
+                android:id="@+id/bt_pdf_four"
+                android:layout_width="39dp"
+                android:layout_height="33dp"
+                android:background="@drawable/ic_download"
+                android:textSize="7dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:background="@drawable/ic_fondo_cuatro"
+                android:enabled="false"
+                android:textColor="#000000"
+                android:text="Teoria unidad 5\n Protocolos de enrutamiento avanzado "/>
+            <Button
+                android:id="@+id/bt_pdf_five"
+                android:layout_width="39dp"
+                android:layout_height="33dp"
+                android:background="@drawable/ic_download"
+                android:textSize="7dp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
+
+

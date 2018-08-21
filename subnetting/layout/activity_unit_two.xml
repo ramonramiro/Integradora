@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_unit_2"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:id="@+id/image_alpha"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_idea"
+            android:alpha="0.7"
+            android:scaleType="centerCrop"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark">
+
+        <Button
+            android:id="@+id/bt_play"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/main.btn.margin"
+            android:layout_weight="1"
+            android:drawableBottom="@android:drawable/ic_media_play"
+            android:onClick="play"
+            tools:drawableBottom="@android:drawable/ic_media_play"
+            android:text="Play"/>
+
+        <Button
+            android:id="@+id/bt_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:layout_margin="@dimen/main.btn.margin"
+            android:layout_weight="1"
+            android:drawableBottom="@android:drawable/ic_media_pause"
+            android:onClick="pause"
+            android:text="Pause"/>
+
+        <Button
+            android:id="@+id/bt_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/main.btn.margin"
+            android:layout_weight="1"
+            android:drawableBottom="@android:drawable/ic_menu_slideshow"
+            android:onClick="stop"
+            android:text="Stop" />
+
+        <Button
+            android:id="@+id/bt_theory"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/main.btn.margin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Teoria"
+            />
+    </LinearLayout>
+</LinearLayout>
+

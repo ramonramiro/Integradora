@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_font_stips">
+
+    <TextView
+        android:id="@+id/tv_source_format"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:text="Suponiendo que se requieren 120 subredes y se utilizan 7 bits, la dirección es clase B"
+        />
+    <TextView
+        android:id="@+id/tv_source_format_four2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#ef6e00"
+        android:text="Buscar la red #0" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt_source_format3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:enabled="false"
+                    android:text="Red"
+                    android:textColor="#ef6e00"
+                    android:background="#607d8b"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="86dp"
+                    android:layout_height="38dp"
+
+                    android:layout_alignParentTop="true"
+                    android:text="190.30."
+                    android:textColor="@color/colorPrimary"
+                    android:textAlignment="center"
+                    android:textSize="27dp" />
+
+                <EditText
+                    android:id="@+id/edt_box_network"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="00000000"
+                    android:textAlignment="center"
+                    android:textSize="27dp"/>
+
+                <EditText
+                    android:id="@+id/edt_box_network2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="00000000"
+                    android:textAlignment="center"
+                    android:textSize="27dp"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_answer_network"
+                    android:layout_width="382dp"
+                    android:layout_height="55dp"
+                    android:textSize="23dp"
+                    android:textAlignment="center"
+                    android:textColor="#5d4037"
+                    android:hint="" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt_shows_network"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Resultado" />
+
+                <Button
+                    android:id="@+id/bt_submit_network"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Revisar" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt_source_format4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:enabled="false"
+                    android:text="Primera red válida"
+                    android:textColor="#ff9800"
+                    android:background="#607d8b"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="86dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentTop="true"
+                    android:text="190.30."
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="25dp" />
+
+                <EditText
+                    android:id="@+id/edt_box_first"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="00000000"
+                    android:textAlignment="center"
+                    android:textSize="27dp" />
+
+                <EditText
+                    android:id="@+id/edt_box_first2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="00000000"
+                    android:textAlignment="center"
+                    android:textSize="27dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_answer_first"
+                    android:layout_width="382dp"
+                    android:layout_height="55dp"
+                    android:textSize="23dp"
+                    android:textAlignment="center"
+                    android:textColor="#5d4037"
+                    android:hint="" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt_shows_first"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Resultado"
+                   />
+
+                <Button
+                    android:id="@+id/bt_submit_first"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Revisar" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/tv_source_last"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Última válida"
+                    android:enabled="false"
+                    android:textColor="#ff9800"
+                    android:background="#607d8b"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="86dp"
+                    android:layout_height="38dp"
+
+                    android:layout_alignParentTop="true"
+                    android:text="190.30."
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="27dp" />
+
+                <EditText
+                    android:id="@+id/edt_box_first_last"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="00000000"
+                    android:textAlignment="center"
+                    android:textSize="27dp" />
+
+                <EditText
+                    android:id="@+id/edt_box_first_last2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="00000000"
+                    android:textAlignment="center"
+                    android:textSize="27dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_answer_last"
+                    android:layout_width="382dp"
+                    android:layout_height="55dp"
+                    android:textSize="23dp"
+                    android:textAlignment="center"
+                    android:textColor="#5d4037"
+                    android:hint="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt_shows_result_last"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Resultado"
+                    />
+
+                <Button
+                    android:id="@+id/btn_submit_last"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Revisar" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/tv_source_format_broadcast"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:enabled="false"
+                    android:text="Broadcast"
+                    android:textColor="#ff9800"
+                    android:background="#607d8b"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="94dp"
+                    android:layout_height="38dp"
+
+                    android:layout_alignParentTop="true"
+                    android:text="190.30."
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="27dp" />
+
+                <EditText
+                    android:id="@+id/edt_broadcast"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="00000000"
+                    android:textAlignment="center"
+                    android:textSize="27dp" />
+
+                <EditText
+                    android:id="@+id/edt_broadcast2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="00000000"
+                    android:textAlignment="center"
+                    android:textSize="27dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_answer_broadcast"
+                    android:layout_width="382dp"
+                    android:layout_height="55dp"
+                    android:textSize="23dp"
+                    android:textAlignment="center"
+                    android:textColor="#5d4037"
+                    android:hint="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt_shows_result4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Resultado"
+                    />
+
+                <Button
+                    android:id="@+id/bt_submit_broadcast"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Revisar"
+                    />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/image_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/ic_boton_orig" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

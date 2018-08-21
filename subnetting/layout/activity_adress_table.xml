@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_fondo_prin"
+
+    >
+
+    <TextView
+        android:id="@+id/tv_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crea la tabla de direcciones "
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="145dp">
+
+
+        <EditText
+            android:id="@+id/edt_class"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+
+        <EditText
+            android:id="@+id/edt_range"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:hint="0-126"
+            android:text=""
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edt_more"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:hint="255.255.255.0"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edt_bits"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:hint="16"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edt_prefix"
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:hint="8"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        android:background="#006064"
+        android:text="AGREGAR" />
+
+    <TableLayout
+        android:id="@+id/table_list"
+        android:layout_width="361dp"
+        android:layout_height="245dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="27dp" />
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="357dp"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="193dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Clase"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="83dp"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:text="Rango"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="129dp"
+            android:layout_height="match_parent"
+            android:text="Mascara de red"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:text="bits"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="prefijo"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_information_two"
+        android:layout_width="372dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="43dp"
+        android:textColor="#ffffff"
+        android:text="El intervalo de direcciones 127.X.X.X está reservado como dirección de loopback, con propósito de prueba y diagnóstico "
+        android:textSize="12dp" />
+
+    <ImageView
+        android:id="@+id/image_return"
+        android:layout_width="118dp"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_boton_orig" />
+
+</RelativeLayout>

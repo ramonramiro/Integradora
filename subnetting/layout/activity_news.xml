@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.principal.subnetting.easy.NewsActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Algunos de los acontecimientos relevantes en los últimos años de redes y telecomunicaciones  ."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="19dp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="192dp"
+                android:id="@+id/image_news_one"
+                android:background="@drawable/ic_bye" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Las direcciones IPv4 comenzaron a agotarse hace pocos años entérate de más.."
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="192dp"
+                android:id="@+id/image_news_two"
+                android:background="@drawable/redes" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Convergencia de redes: el futuro de la conectividad"
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="192dp"
+                android:id="@+id/image_news_three"
+                android:background="@drawable/ic_ipv_seis" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="El diseño de IPv6 se presentó como una forma de mejorar Internet, con nuevas ventajas, además de la capacidad para expandir el espacio de direcciones."
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="192dp"
+                android:id="@+id/image_news_four"
+                android:background="@drawable/ic_fibra" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Los cables de fibra óptica podrían detectar con gran antelación los terremotos"
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="192dp"
+                android:id="@+id/image_news_five"
+                android:background="@drawable/cisco" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cisco day en UTNG, concursos, premios y conocimiento "
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

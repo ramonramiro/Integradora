@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10sp"
+    android:background="@drawable/ic_img_reg">
+
+    <EditText
+        android:id="@+id/edt_Register_Name"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Nombre"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_person"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edt_Register_Email"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:hint="Correo"
+        android:inputType="textEmailAddress"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edt_Register_Password"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#11000000"
+        android:hint="Contraseña"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:inputType="textPassword"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt_Register_Pass_repeat"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:hint="Repetir contraseña "
+        android:inputType="textPassword"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(mínimo 6 dígitos)"
+        android:background="#11000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bt_Register"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="184dp"
+        android:layout_height="37dp"
+        android:hint="Registrar"/>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_fondo_prin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:text="Ejemplo con clase, recuerda que estas direcciones no se subdividen"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="23dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="486dp">
+
+        <EditText
+            android:id="@+id/edt_show_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="68dp"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/edt_enter_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="153dp"
+            android:inputType="number"
+            android:hint="¿Cúantas direcciones para host utilizarias?"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/bt_submit_network"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="220dp"
+            android:background="#006064"
+            android:text="Revisar" />
+
+        <TextView
+            android:id="@+id/tv_fedback"
+            android:layout_width="match_parent"
+            android:layout_height="203dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp" />
+
+        <ImageView
+            android:id="@+id/image_back"
+            android:layout_width="118dp"
+            android:layout_height="46dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="17dp"
+            android:src="@drawable/ic_boton_orig" />
+
+    </RelativeLayout>
+</LinearLayout>

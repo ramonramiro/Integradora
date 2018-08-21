@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_font_stips">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="592dp">
+
+        <TextView
+            android:id="@+id/tv_source_format_four"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Tienes que ingresar el valor en decimal"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/tv_source_format_four2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="198dp"
+            android:hint="Ejemplo... 255.255.255.0"
+            android:textColor="#283593"
+            android:textSize="12dp" />
+
+        <EditText
+            android:id="@+id/edt_data_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_source_format_four2"
+            android:layout_marginBottom="-198dp"
+            android:textColor="@color/colorPrimary">
+        </EditText>
+
+        <Button
+            android:id="@+id/bt_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginBottom="249dp"
+            android:background="#607d8b"
+            android:text="Revisar"
+            android:textColor="#ef6e00" />
+
+        <ImageView
+            android:id="@+id/image_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginBottom="19dp"
+            android:src="@drawable/ic_boton_orig" />
+
+    </RelativeLayout>
+
+</LinearLayout>
